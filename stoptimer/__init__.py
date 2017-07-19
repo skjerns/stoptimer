@@ -1,2 +1,2 @@
-import stoptimer
-stimer = stoptimer.sTimer()
+import stimer
+stimer = stimer.sTimer()
