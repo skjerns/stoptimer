@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='stoptimer',
-      version='0.11',
+      version='0.15',
       description='A simple StopTimer',
       url='http://github.com/skjerns/stoptimer',
       author='skjerns',
