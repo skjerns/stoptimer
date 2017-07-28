@@ -21,5 +21,8 @@ def stop( identifier = ''):
     except KeyError:
         print('Identifier {} not found'.format(identifier))
    
+def sleep(seconds):
+    time.sleep(seconds)
+    
 starttime = dict()
 start('')
