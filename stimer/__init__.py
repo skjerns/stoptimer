@@ -9,13 +9,13 @@ def stop( identifier = ''):
         if end > 7200:
             hours   = end//3600
             minutes = end//60 - hours*60
-            print("Elapsed{}: {:.0f}:{:02.0f} hours".format(' ' + str(identifier) if len(str(identifier))>0 else '',hours,minutes))
+            print("Elapsed {}: {:.0f}:{:02.0f} hours".format(str(identifier) if len(str(identifier))>0 else '',hours,minutes))
         elif end > 180:
             minutes = end//60
             seconds = end%60
-            print("Elapsed{}: {:.0f}:{:02.0f} minutes".format(' ' + str(identifier) if len(str(identifier))>0 else '', minutes , seconds ))
+            print("Elapsed {}: {:.0f}:{:02.0f} minutes".format(str(identifier) if len(str(identifier))>0 else '', minutes , seconds ))
         else:
-            print("Elapsed{}: {:02.3f} seconds".format('Timer ' + str(identifier) if len(str(identifier))>0 else '',end))
+            print("Elapsed {}: {:02.3f} seconds".format(str(identifier) if len(str(identifier))>0 else '',end))
         return  time.time()-starttime[identifier]
     
     except KeyError:
