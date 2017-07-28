@@ -3,7 +3,7 @@ from setuptools import setup
 setup(name='stimer',
       version='0.16',
       description='A simple StopTimer',
-      url='http://github.com/skjerns/stoptimer',
+      url='http://github.com/skjerns/StopTimer',
       author='skjerns',
       author_email='nomail',
       license='MIT',
