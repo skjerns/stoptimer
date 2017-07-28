@@ -23,9 +23,9 @@ stimer.start('Calculation')
 # start some calculation
 stimer.sleep(0.3)
 stimer.stop('Calculation')
-# Elapsed:0.301 seconds
+# Elapsed Calculation: 0.301 seconds
 # some more plotting
 stimer.sleep(0.2)
 stimer.stop('Plotting')
-# Elapsed:0.04 seconds
+# Elapsed Plotting: 0.704 seconds
 ```
